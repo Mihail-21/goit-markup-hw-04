@@ -287,6 +287,8 @@ margin-bottom: 8px;
   justify-content: center;
   align-items: center;
   gap:24px;
+  padding: 0;
+  margin-top: 8px;
 }
 .team-icons-wrapper{
   width: 40px;
@@ -298,10 +300,89 @@ margin-bottom: 8px;
 .team-icons{
 fill: #f4f4fd;
 }
+.customers{
+  padding: 120px;
+}
+/*Technologies*/
+.header {
+  display: flex;
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+}
+.Our-Portfolio-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: auto;
+  padding-right: auto;
+}
+.Our-Portfolio-title{
+  color: var(--NAVY-BLUE, #2E2F42);
+  text-align: center;
+  
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  padding-bottom: 72px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+}
+.portfolio-list-title {
+  flex-basis: calc((100% - 24px * 2) / 3);
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.special-text{
+  width: 360px;
+  height: 300px;
+  flex-shrink: 0;
+  background: var(--IRIS, #4D5AE5);
+  padding: 40px 32px 164px 32px;
+}
+.spesial-text-p{
+  color: var(--CLOUD, #F4F4FD);
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+}
+.content-box {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.portfolio-title {
+  color: var(--navyblue);
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+.portfolio-text {
+  color: var(--slate);
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 /*footer*/
 .footer {
   background: var(--navyblue);
   padding: 100px 0;
+}
+.footer-conteiner{
+  display: flex;
 }
 .web-link-footer {
   color: var(--iris);
@@ -325,76 +406,22 @@ fill: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-/*Technologies*/
-.header {
-  display: flex;
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
-}
-.technologies-container {
-  padding-top: 96px;
-  padding-bottom: 120px;
-  padding-left: auto;
-  padding-right: auto;
-}
-.but {
-  display: flex;
-  gap: 24px;
-  margin-bottom: 72px;
-  justify-content: center;
-}
-.tech-but {
-  font-family: "Roboto", sans-serif;
+.footer-text{
+  color: var(--WHITE, #FFF);
+  /* Body Medium */
+  font-family: Roboto;
   font-size: 16px;
+  font-style: normal;
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--iris);
-  background-color: var(--cloud);
-  cursor: pointer;
-  padding: 12px 24px;
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  border-radius: 4px;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
-.tech-but:hover {
-  color: var(--white);
-  background-color: var(--ocean);
-  border: 1px solid transparent;
+.footer-main{
+display: flex;
+margin-left: 120px;
 }
-.tech-but:focus {
-  color: var(--white);
-  background-color: var(--ocean);
-  border: 1px solid transparent;
-}
-.tech-list {
+.footer-icons-conteiner{
   display: flex;
-  flex-wrap: wrap;
-  row-gap: 48px;
-  column-gap: 24px;
+gap: 16px;
 }
-.tech-list-title {
-  flex-basis: calc((100% - 24px * 2) / 3);
-  border: 1px solid var(--CORNFLOWER);
-  background: var(--WHITE, #fff);
-}
-.content-box {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
-.tech-title {
-  color: var(--navyblue);
-  font-family: "Roboto";
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  border: 1px solid #e7e9fc;
-  margin-bottom: 8px;
-}
-.tech-text {
-  color: var(--slate);
-  font-family: "Roboto";
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+
