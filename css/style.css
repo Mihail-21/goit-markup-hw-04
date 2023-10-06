@@ -15,7 +15,7 @@
 }
 .body {
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
+  background-color: var(--white);
   color: var(--slate);
 }
 h1,
@@ -46,7 +46,7 @@ img {
   padding-left: auto;
 }
 .header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--CORNFLOWER);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -89,7 +89,7 @@ img {
   padding: 24px 0px;
   display: block;
   position: relative;
-  color: #404bbf;
+  color: var(--ocean);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo-link::after {
@@ -103,7 +103,7 @@ img {
   border-radius: 2px;
 }
 .logo-link.current::after {
-  background-color: #404bbf;
+  background-color: var(--ocean);
 }
 .list {
   list-style: none;
@@ -229,7 +229,7 @@ img {
   height: 112px;
   flex-shrink: 0;
   border-radius: 4px;
-  background: var(--CLOUD, #f4f4fd);
+  background: var(--cloud);
   padding: 24px 100px 24px 100px;
   margin-bottom: 8px;
 }
@@ -280,7 +280,7 @@ img {
   margin-bottom: 8px;
 }
 .team-text {
-  color: var(--slate, #434455);
+  color: var(--slate);
   font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
@@ -297,7 +297,7 @@ img {
   margin-top: 8px;
 }
 .team-icons {
-  fill: #f4f4fd;
+  fill: var(--cloud);
 }
 .team-icons-wrapper {
   width: 40px;
@@ -306,7 +306,7 @@ img {
 .team-icons-link {
   width: 100%;
   height: 100%;
-  background-color: #4d5ae5;
+  background-color: var(--iris);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -314,10 +314,10 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icons-link:hover {
-  background-color: #404bbf;
+  background-color: var(--ocean);
 }
 .team-icons-link:focus {
-  background-color: #404bbf;
+  background-color: var(--ocean);
 }
 .customers {
   padding: 120px;
@@ -325,7 +325,7 @@ img {
 /*Technologies*/
 .header {
   display: flex;
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+  border-bottom: 1px solid var(--CORNFLOWER);
 }
 .Our-Portfolio-container {
   padding-top: 120px;
@@ -334,7 +334,7 @@ img {
   padding-right: auto;
 }
 .Our-Portfolio-title {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--navyblue);
   text-align: center;
 
   font-family: Roboto;
@@ -354,7 +354,7 @@ img {
 }
 .portfolio-list-title {
   flex-basis: calc((100% - 24px * 2) / 3);
-  background: var(--WHITE, #fff);
+  background: var(--white);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -374,8 +374,8 @@ img {
   font-size: 16px;
   width: 100%;
   height: 100%;
-  background-color: #4d5ae5;
-  color: #f4f4fd;
+  background-color:var(--iris);
+  color: var(--cloud);
   padding: 40px 32px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -390,7 +390,7 @@ img {
 }
 .content-box {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--CORNFLOWER);
   border-top: none;
 }
 .portfolio-title {
@@ -419,7 +419,7 @@ img {
   align-items: baseline;
 }
 .footer-icons {
-  fill: #f4f4fd;
+  fill: var(--cloud);
 }
 .footer-con {
   margin-right: 120px;
@@ -431,7 +431,7 @@ img {
 .footer-icons-link {
   width: 100%;
   height: 100%;
-  background-color: #4d5ae5;
+  background-color: var(--iris);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -465,7 +465,7 @@ img {
   margin-bottom: 16px;
 }
 .footer-text {
-  color: var(--WHITE, #fff);
+  color: var(--white);
   /* Body Medium */
   font-family: Roboto;
   font-size: 16px;
