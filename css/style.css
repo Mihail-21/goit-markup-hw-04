@@ -421,6 +421,9 @@ img {
 .footer-icons {
   fill: #f4f4fd;
 }
+.footer-con{
+  margin-right: 120px;
+}
 .footer-icons-wrapper {
   width: 40px;
   height: 40px;
@@ -448,7 +451,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   display: inline-block;
-  margin-bottom: 16px;
 }
 .web-studio {
   color: var(--cloud);
