@@ -478,6 +478,8 @@ img {
 }
 .footer-main {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 .footer-icons-conteiner {
   display: flex;
